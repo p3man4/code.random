@@ -1,0 +1,125 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BoxPoints	crop_center.py	/^def BoxPoints(*args, **kwargs):$/;"	f
+BoxPoints	process2.py	/^def BoxPoints(*args, **kwargs):$/;"	f
+COMP_CORREL	process2.py	/^    COMP_CORREL = cv2.HISTCMP_CORREL$/;"	v
+COMP_CORREL	process2.py	/^    COMP_CORREL = cv2.cv.CV_COMP_CORREL$/;"	v
+CoordinateTransform	CoordTran.py	/^class CoordinateTransform(object):$/;"	c
+DATA_ROOT	k3d2image.py	/^DATA_ROOT='\/home\/junwon\/smt-data\/Train_All_filtered\/'$/;"	v
+IMAGE_ROOT	k3d2image.py	/^IMAGE_ROOT='\/home\/junwon\/smt-data\/images\/images_gray_png\/'$/;"	v
+IMAGE_ROOT	vae_smt_tf.py	/^IMAGE_ROOT='\/home\/junwon\/smt-data\/images\/SOD6'$/;"	v
+IN_FILE	csv2pkg.py	/^IN_FILE='\/home\/junwon\/smt-project\/SMT-newtest\/detect_part\/training_data\/Daniel-Post_PkgInfo_201708180740.csv'$/;"	v
+IN_FILE	temp_2_part.py	/^IN_FILE="\/home\/junwon\/smt-data\/Train_0818\/Template2Part_Map.csv"$/;"	v
+IN_FOLDER	image2image.py	/^IN_FOLDER="\/home\/junwon\/tensorflow_code\/BEGAN-tensorflow\/data\/R0402"$/;"	v
+Match_Instances	process2.py	/^def Match_Instances(instance1, instance2):$/;"	f
+OUT_FILE	csv2pkg.py	/^OUT_FILE='\/home\/junwon\/smt-project\/SMT-newtest\/detect_part\/training_data\/Daniel-Post_PkgInfo_201708180740.pkg'$/;"	v
+OUT_FOLDER	image2image.py	/^OUT_FOLDER="\/home\/junwon\/tensorflow_code\/BEGAN-tensorflow\/data\/R0402_212d"$/;"	v
+VariationalAutoencoder	vae_smt_tf.py	/^class VariationalAutoencoder(object):$/;"	c
+VariationalAutoencoder	vae_tf.py	/^class VariationalAutoencoder(object):$/;"	c
+__init__	CoordTran.py	/^    def __init__(self, fov_x, fov_y, width, height, scale_x, scale_y):$/;"	m	class:CoordinateTransform
+__init__	utils/load_image.py	/^    def __init__(self):$/;"	m	class:image_class
+__init__	vae_smt_tf.py	/^    def __init__(self, network_architecture, transfer_fct=tf.nn.softplus, $/;"	m	class:VariationalAutoencoder
+__init__	vae_tf.py	/^    def __init__(self, network_architecture, transfer_fct=tf.nn.softplus, $/;"	m	class:VariationalAutoencoder
+_create_loss_optimizer	vae_smt_tf.py	/^    def _create_loss_optimizer(self):$/;"	m	class:VariationalAutoencoder
+_create_loss_optimizer	vae_tf.py	/^    def _create_loss_optimizer(self):$/;"	m	class:VariationalAutoencoder
+_create_network	vae_smt_tf.py	/^    def _create_network(self):$/;"	m	class:VariationalAutoencoder
+_create_network	vae_tf.py	/^    def _create_network(self):$/;"	m	class:VariationalAutoencoder
+_generator_network	vae_smt_tf.py	/^    def _generator_network(self, weights, biases):$/;"	m	class:VariationalAutoencoder
+_generator_network	vae_tf.py	/^    def _generator_network(self, weights, biases):$/;"	m	class:VariationalAutoencoder
+_initialize_weights	vae_smt_tf.py	/^    def _initialize_weights(self, n_hidden_recog_1, n_hidden_recog_2, $/;"	m	class:VariationalAutoencoder
+_initialize_weights	vae_tf.py	/^    def _initialize_weights(self, n_hidden_recog_1, n_hidden_recog_2, $/;"	m	class:VariationalAutoencoder
+_recognition_network	vae_smt_tf.py	/^    def _recognition_network(self, weights, biases):$/;"	m	class:VariationalAutoencoder
+_recognition_network	vae_tf.py	/^    def _recognition_network(self, weights, biases):$/;"	m	class:VariationalAutoencoder
+align_rects	process2.py	/^def align_rects(rect1, rect2):$/;"	f
+argsort	process2.py	/^def argsort(seq):$/;"	f
+build_table	temp_2_part.py	/^def build_table(filename):$/;"	f
+clean_regions	crop_center.py	/^def clean_regions(regions):$/;"	f
+clean_regions	process2.py	/^def clean_regions(regions):$/;"	f
+compress_dict	process2.py	/^def compress_dict(known_components):$/;"	f
+convert	CoordTran.py	/^    def convert(self, x, y):$/;"	m	class:CoordinateTransform
+corr_similarity	process2.py	/^def corr_similarity(arg_im1, arg_im2):$/;"	f
+cube_similarity	process2.py	/^def cube_similarity((w1, h1, d1), (w2, h2, d2)):$/;"	f
+estimate_leads	process2.py	/^def estimate_leads(regions):$/;"	f
+evaluate	process2.py	/^def evaluate(with_leadcnt, table, test_set, known_components, callback):$/;"	f
+fast_corr_sim	process2.py	/^def fast_corr_sim(ar1, norm1, ar2, norm2, ar2f, norm2f, ar2f1, norm2f1, ar2f2, norm2f2):$/;"	f
+findContours	crop_center.py	/^def findContours(*args, **kwargs):$/;"	f
+findContours	process2.py	/^def findContours(*args, **kwargs):$/;"	f
+find_nearest_pair	process2.py	/^def find_nearest_pair(cnt1, cnt2):$/;"	f
+generate	vae_smt_tf.py	/^    def generate(self, z_mu=None):$/;"	m	class:VariationalAutoencoder
+generate	vae_tf.py	/^    def generate(self, z_mu=None):$/;"	m	class:VariationalAutoencoder
+get_data	vae_smt_tf.py	/^def get_data():$/;"	f
+get_image	utils/load_image.py	/^    def get_image(self,png_file):$/;"	m	class:image_class
+get_k3d	crop_center.py	/^def get_k3d(input_path):$/;"	f
+get_regions	crop_center.py	/^def get_regions(depth, markers):$/;"	f
+get_regions	process2.py	/^def get_regions(depth, markers):$/;"	f
+handle_subdir	k3d2image.py	/^def handle_subdir(subdir):$/;"	f
+image_class	utils/load_image.py	/^class image_class(object):$/;"	c
+image_root	test.py	/^image_root='\/home\/junwon\/smt-data\/images\/SOD6'$/;"	v
+inv_scale	CoordTran.py	/^    def inv_scale(self, w, h):$/;"	m	class:CoordinateTransform
+is_square	process2.py	/^def is_square((a, b), threshold=0.05):$/;"	f
+k3d_path	crop_center.py	/^k3d_path='\/home\/junwon\/smt-data\/Train_0818\/Measure_JOB1\/C469.k3d'$/;"	v
+main	crop_center.py	/^def main():$/;"	f
+main	image2image.py	/^def main():$/;"	f
+main	k3d2image.py	/^def main():$/;"	f
+main	test.py	/^def main():$/;"	f
+main	vae_smt_tf.py	/^def main():$/;"	f
+match	process2.py	/^def match(with_leadcnt,template_part_table,sample_k3d, known_components):$/;"	f
+merge_components	process2.py	/^def merge_components(known_components, components):$/;"	f
+merge_contours	process2.py	/^def merge_contours(cnt1, cnt2):$/;"	f
+mnist	test2.py	/^mnist = input_data.read_data_sets('MNIST_data',one_hot=True)$/;"	v
+mnist	vae_tf.py	/^mnist = input_data.read_data_sets('MNIST_data',one_hot=True)$/;"	v
+n_hidden_gener_1	vae_smt_tf.py	/^             n_hidden_gener_1=500, # 1st layer decoder neurons$/;"	v
+n_hidden_gener_1	vae_tf.py	/^         n_hidden_gener_1=500, # 1st layer decoder neurons$/;"	v
+n_hidden_gener_2	vae_smt_tf.py	/^             n_hidden_gener_2=500, # 2nd layer decoder neurons$/;"	v
+n_hidden_gener_2	vae_tf.py	/^         n_hidden_gener_2=500, # 2nd layer decoder neurons$/;"	v
+n_hidden_recog_2	vae_smt_tf.py	/^             n_hidden_recog_2=500, # 2nd layer encoder neurons$/;"	v
+n_hidden_recog_2	vae_tf.py	/^         n_hidden_recog_2=500, # 2nd layer encoder neurons$/;"	v
+n_input	vae_smt_tf.py	/^             n_input= num_pixels, # MNIST data input (img shape: 28*28)$/;"	v
+n_input	vae_tf.py	/^         n_input=784, # MNIST data input (img shape: 28*28)$/;"	v
+n_samples	test2.py	/^n_samples = mnist.train.num_examples$/;"	v
+n_samples	vae_smt_tf.py	/^n_samples  = 0$/;"	v
+n_samples	vae_smt_tf.py	/^n_samples =  x_train.shape[0]$/;"	v
+n_samples	vae_tf.py	/^n_samples = mnist.train.num_examples$/;"	v
+n_z	vae_smt_tf.py	/^             n_z=20)  # dimensionality of latent space$/;"	v
+n_z	vae_tf.py	/^         n_z=20)  # dimensionality of latent space$/;"	v
+network_architecture	vae_smt_tf.py	/^network_architecture = dict(n_hidden_recog_1=500, # 1st layer encoder neurons$/;"	v
+network_architecture	vae_tf.py	/^network_architecture =     dict(n_hidden_recog_1=500, # 1st layer encoder neurons$/;"	v
+normalize_process_data	process2.py	/^def normalize_process_data(components, callback=None):$/;"	f
+num_pixels	vae_smt_tf.py	/^num_pixels = x_train.shape[1] * x_train.shape[2]$/;"	v
+pack_k3d	process2.py	/^def pack_k3d(k3dict):$/;"	f
+partial_fit	vae_smt_tf.py	/^    def partial_fit(self, X):$/;"	m	class:VariationalAutoencoder
+partial_fit	vae_tf.py	/^    def partial_fit(self, X):$/;"	m	class:VariationalAutoencoder
+pre_process_component	crop_center.py	/^def pre_process_component(k3dict):$/;"	f
+pre_process_component	process2.py	/^def pre_process_component(k3dict):$/;"	f
+pre_process_data	process2.py	/^def pre_process_data(components, callback=None):$/;"	f
+read_csv	csv2pkg.py	/^def read_csv(filename,delimiter=",", quotechar="|"):$/;"	f
+reconstruct	vae_smt_tf.py	/^    def reconstruct(self, X):$/;"	m	class:VariationalAutoencoder
+reconstruct	vae_tf.py	/^    def reconstruct(self, X):$/;"	m	class:VariationalAutoencoder
+resize_image	utils/load_image.py	/^    def resize_image(self,new_size):$/;"	m	class:image_class
+scale	CoordTran.py	/^    def scale(self, w, h):$/;"	m	class:CoordinateTransform
+show	test.py	/^def show(data):$/;"	f
+show_image	vae_smt_tf.py	/^def show_image(data):$/;"	f
+swap	process2.py	/^def swap((a, b)):$/;"	f
+table	temp_2_part.py	/^table = build_table(IN_FILE)$/;"	v
+temp_path	crop_center.py	/^temp_path='\/home\/junwon\/smt-data\/Train_0818\/Measure_JOB1\/'$/;"	v
+train	vae_smt_tf.py	/^def train(network_architecture, learning_rate=0.001,$/;"	f
+train	vae_tf.py	/^def train(network_architecture, learning_rate=0.001,$/;"	f
+transform	vae_smt_tf.py	/^    def transform(self, X):$/;"	m	class:VariationalAutoencoder
+transform	vae_tf.py	/^    def transform(self, X):$/;"	m	class:VariationalAutoencoder
+uncompress_dict	process2.py	/^def uncompress_dict(known_components):$/;"	f
+vae	vae_smt_tf.py	/^vae = train(network_architecture, training_epochs=10)$/;"	v
+vae	vae_tf.py	/^vae = train(network_architecture, training_epochs=10)$/;"	v
+write_k3d	process2.py	/^def write_k3d(filename, k3dict):$/;"	f
+x_reconstruct	vae_smt_tf.py	/^x_reconstruct = vae.reconstruct(x_sample)$/;"	v
+x_reconstruct	vae_tf.py	/^x_reconstruct = vae.reconstruct(x_sample)$/;"	v
+x_sample	test2.py	/^x_sample = mnist.test.next_batch(100)[0]$/;"	v
+x_sample	vae_smt_tf.py	/^x_sample = x_train$/;"	v
+x_sample	vae_tf.py	/^x_sample = mnist.test.next_batch(100)[0]$/;"	v
+x_train	vae_smt_tf.py	/^x_train  = np.resize(x_train, (n_samples,num_pixels))$/;"	v
+x_train	vae_smt_tf.py	/^x_train = get_data()$/;"	v
+xavier_init	vae_smt_tf.py	/^def xavier_init(fan_in,fan_out,constant=1):$/;"	f
+xavier_init	vae_tf.py	/^def xavier_init(fan_in,fan_out,constant=1):$/;"	f
