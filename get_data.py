@@ -10,15 +10,15 @@
 import numpy as np
 import sys
 import os
-sys.path.append("/home/junwon/smt-project/SMT-newtest/detect_part")
+#sys.path.append("/home/swchoi/smt-project/SMT-v2/detect_part")
 import smt_process.detect_class as detect_class
-
-TEMPLATE_FILE="/home/junwon/smt-project/SMT-newtest/detect_part/training_data/Template2Part_Map.csv"
-DATA_HOME="/home/junwon/smt-data/Train_0818"
+import smt_process.template_2_part as template_2_part
+TEMPLATE_FILE="/home/swchoi/smt-project/SMT-v2/detect_part/training_data/Template2Part_Map.csv"
+DATA_HOME="/home/swchoi/smt-data/Train_0818"
 
 def main():
 
-    part_template_dict = build_part_template_dict()
+    part_template_dict = template_2_part.build_table(TEMPLATE_FILE)
     print part_template_dict.keys()
 
     template_images_dict={}
@@ -50,7 +50,7 @@ def main():
 
             part_nm = k3d_dict['component_id']
             try:
-                print part_nm,":",part_template_dict[part_nm]
+                print part_nm,":",part_template_dict[part_nm][0]
             except:
                 print "does not exit"
 
@@ -77,35 +77,27 @@ def main():
                 labels.append(key)
                 images.append(img)
 
-        print "labels:",images
+        print "labels:",labels
         return images,labels
 
 
             
 
-def build_part_template_dict():
-    part_template_dict={}
-    
-    with open(TEMPLATE_FILE,'r') as f:
-        next(f)
-        for index,line in enumerate(f):
-            template_nm = line.split(",")[1]
-            template_nm = template_nm.replace("\"","")
-
-            part_nm = line.split(",")[2]
-            part_nm = part_nm.replace("\"","")
-            part_nm = part_nm[0:20]
-            part_template_dict[part_nm] = template_nm
-
-    return part_template_dict
-
-
-
-
-
-
-
-
+#def build_part_template_dict():
+#    part_template_dict={}
+#    
+#    with open(TEMPLATE_FILE,'r') as f:
+#        next(f)
+#        for index,line in enumerate(f):
+#            template_nm = line.split(",")[1]
+#            template_nm = template_nm.replace("\"","")
+#
+#            part_nm = line.split(",")[2]
+#            part_nm = part_nm.replace("\"","")
+#            part_nm = part_nm[0:20]
+#            part_template_dict[part_nm] = template_nm
+#
+#    return part_template_dict
 
 
 
